@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    line-height: 1.6em;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    margin-bottom: 50px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+}
+
+.order-summary {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.hero img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.description {
+    padding: 20px 35px;
+}
+
+.description h2 {
+    margin: 15px;
+    font-weight: 900;
+}
+
+.description .grid {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 8px;
+} 
+
+.grid .plan {
+    display: flex;
+}
+
+.grid .plan .price {
+    margin-left: 20px;
+}
+
+.grid .plan .price h4 {
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.plan .price p:nth-child(1) {
+    font-weight: bold;
+}
+
+.plan .price p:nth-child(2) {
+    text-align: left;
+}
+
+.grid .change-link a {
+    font-weight: bold;
+} 
+
+.btn-payment {
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 2px 20px 15px rgba(105, 99, 99, 0.2);
+}
+
+.btn-cancel {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 30px 0px 20px 0px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 100vh;
+    }
+
+    .order-summary {
+        width: 70%;
+    }
+}
