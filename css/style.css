@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 95vh;
+    min-height: 110vh;
 }
 
 .order-summary {
@@ -44,7 +44,8 @@ body {
     padding: 20px 35px;
 }
 
-.description h2 {
+.description h1 {
+    font-size: 1.5em;
     margin: 15px;
     font-weight: 900;
 }
