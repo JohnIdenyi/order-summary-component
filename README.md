@@ -29,8 +29,8 @@ I added a css property of cursor: pointer; in order to create hover states for b
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/JohnIdenyi/order-summary-component/)
+- Live Site URL: [Add live site URL here](https://order-summary-component-project.netlify.app/)
 
 ## My process
   I started with the HTML markup before applying CSS rules. Writing your HTML first helps place my contents on the webpage without missing any and then focus on the styling.
