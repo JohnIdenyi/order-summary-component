@@ -96,6 +96,13 @@ body {
     font-weight: bold;
 } 
 
+
+.grid .change-link a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: hsl(224, 23%, 55%);
+}
+
 .btn-payment {
     background-color: hsl(245, 75%, 52%);
     width: 100%;
@@ -118,12 +125,6 @@ body {
 .btn-cancel:hover,
 .btn-payment:hover {
     cursor: pointer;
-}
-
-.grid .change-link a:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    color: hsl(224, 23%, 55%);
 }
 
 @media (max-width: 768px) {
